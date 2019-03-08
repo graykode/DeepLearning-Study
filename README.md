@@ -23,37 +23,26 @@ This is repository for Deep Learning Study in Kyung Hee University Computer Engi
 ## 1st Curriculum
 
 #### 0. Review Basic mathematical Theory with Deep Learning Framework
-
 - Probability Review
 - Linear Regression
-
   - Univariate Linear Regression vs. Multivariate Linear Regression
   - **loss function and activation function** in Linear Regression
     - activation function : identity map
     - loss function : MSE function
   - Gradient Descent in Linear Regression
 - Logistic Regression
-
   - What is different with Linear Regression?
-
   - **loss function and activation function** in Logistic Regression
-
     - activation function : sigmoid vs. tanh vs. ReLu vs. Softmax
-
     - loss function : Maximizing Likelihood is Minimizing Cross-Entropy
-
   - Gradient Descent in Logistic Regression
-
   - different with binary classification and multi classification(sigmoid vs. Softmax)
 - Optimizing
-
   - manual gradient vs. auto gradient  in Deep Learning Framework
-
   - What is batch and mini-batch?
   - role of Momentum
   - SGD, Adagrad, RMSProp, AdaDelta, Adam optimizer
 - Regularization
-
   - What is Overfitting?
   - Regularization : weight decay
   - Regularization : dropout
@@ -64,7 +53,6 @@ This is repository for Deep Learning Study in Kyung Hee University Computer Engi
 
 
 #### 1.DNN(Deep Neural Network)
-
 - Mathematical Back Propagation in Deep Neural Network
 - Basic Classification using Deep Neural Network
   - Classification  : Linear Regression in Deep Neural Network
@@ -74,7 +62,6 @@ This is repository for Deep Learning Study in Kyung Hee University Computer Engi
 
 
 #### 2.DataLoader and basic Dataset
-
 - MNIST
 - Cifar10, Cifar100
 - Image Folder
@@ -82,7 +69,6 @@ This is repository for Deep Learning Study in Kyung Hee University Computer Engi
 
 
 #### 3.CNN(Convolution Neural Network)
-
 - Structure of CNN
   - Convolutional Layer
     - Role of filter(=kernel)
@@ -100,7 +86,6 @@ This is repository for Deep Learning Study in Kyung Hee University Computer Engi
 
 
 #### 5.RNN(Recurrent Neural Network)
-
 - Structure of RNN
   - Hidden State
   - Output Layer
@@ -113,7 +98,6 @@ This is repository for Deep Learning Study in Kyung Hee University Computer Engi
 
 
 #### 6.LSTM(Long Short Term Memory)
-
 - Structure of LSTM
   - Hidden State, Cell State
   - Different of RNN with LSTM
@@ -126,6 +110,5 @@ This is repository for Deep Learning Study in Kyung Hee University Computer Engi
 
 
 #### 7. Application Level
-
 - Vision : Cat or Dog Image Classification.
 - Natural Language Processing : Positive or Negative Classification with Naver Movie Review.
