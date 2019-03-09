@@ -176,7 +176,8 @@ Please see down Contents.
 
 - Structure of RNN
 
-  -   One-to-one vs. One-to-many vs. Many-to-one vs. Many-to-many
+  - [5.RNN-Introduce.py](https://github.com/graykode/DeepLearning-Study/blob/master/5.RNN-Introduce.py)
+  - One-to-one vs. One-to-many vs. Many-to-one vs. Many-to-many
 
   - Hidden State
   - Output Layer
@@ -188,19 +189,22 @@ Please see down Contents.
 
 - Mathematical Back Propagation in Recurrent Neural Network(Eng, [Kor](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/))
 
-- Practice : Predict Next word using RNN
+- Practice : [Predict Next word using RNN](https://github.com/graykode/DeepLearning-Study/blob/master/5.RNN-PredictWord.py)
 
 
 
 #### 6.LSTM(Long Short Term Memory)
+
 - Structure of LSTM
+  - [6.LSTM-Introduce.py](https://github.com/graykode/DeepLearning-Study/blob/master/6.LSTM-Introduce.py)
   - Hidden State, Cell State
   - Different of RNN with LSTM
   - Output Layer
   - Weight sharing in RNN
 - FeedForward in LSTM(Eng, [Kor](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/))
 - Mathematical Back Propagation in LSTM(Eng, [Kor](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/))
-- Practice : Implementation difference with RNN
+- Bi-directional LSTM(BiLSTM)(Eng, [Kor](https://ratsgo.github.io/natural%20language%20processing/2017/10/22/manning/))
+- Practice : [LSTM-AutoComplete with LSTM](https://github.com/graykode/DeepLearning-Study/blob/master/6.LSTM-AutoComplete.py)
 
 
 
