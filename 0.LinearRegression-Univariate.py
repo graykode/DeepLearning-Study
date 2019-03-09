@@ -26,11 +26,12 @@ print("Parameter w : %f, Predict y : %f" % (w, forward(4)))
 
 # Training loop
 for epoch in range(10):
+    l = 0
     for x_val, y_val in zip(x_data, y_data):
         grad = gradient(x_val, y_val)
         w = w - 0.01 * grad # 0.01 is learning rate
         print("\tgrad: ", x_val, y_val, round(grad, 2))
-        l = loss(x_val, y_val)
+        l += loss(x_val, y_val)
     print("progress:", epoch, "w=", round(w, 2), "loss=", round(l, 2))
 
 # After training

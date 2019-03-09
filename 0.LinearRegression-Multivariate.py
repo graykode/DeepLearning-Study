@@ -38,6 +38,7 @@ print("Parameter w1 :%f, w2 : %f, w3 : %f" % (w1, w2, w3))
 
 # Training loop
 for epoch in range(100):
+    l = 0
     for x_vals, y_val in zip(x_data, y_data):
 
         grad1 = gradient1(x_vals, y_val)  # d_loss/d_w1
@@ -49,7 +50,7 @@ for epoch in range(100):
         w3 = w3 - 0.01 * grad3
 
         print("\tgrad: ", x_vals, y_val, round(grad1, 2), round(grad2, 2), round(grad3, 2))
-        l = loss(x_vals, y_val)
+        l += loss(x_vals, y_val)
 
     print("progress:", epoch+1, "w1=%f, w2=%f, w3=%f"% (round(w1, 2), round(w2, 2), round(w3, 2)), "loss=", round(l, 2))
 
