@@ -4,28 +4,25 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.autograd import Variable
 
-x_data = Variable(torch.Tensor([
+x_data = torch.Tensor([
     [-2.0],
     [-1.0],
     [1.0],
     [5.0]
-]))
+])
 
-y_data = Variable(torch.LongTensor([1, 1, 2, 3])) # 3 classes
+y_data = torch.LongTensor([1, 1, 2, 3]) # 3 classes
 
 class Model(nn.Module):
     def __init__(self):
         super(Model, self).__init__()
         # Model Parameters in Here
         self.w = nn.Linear(1, 4)
-        self.softmax = nn.Softmax(dim=0)
 
     def forward(self, x):
         # feeforwarding of Model in Here
         y = self.w(x)
-        y = self.softmax(y)
         return y
 
 model = Model()

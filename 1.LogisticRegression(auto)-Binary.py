@@ -4,21 +4,20 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.autograd import Variable
 
-x_data = Variable(torch.Tensor([
+x_data = torch.Tensor([
     [-2.0],
     [-1.0],
     [1.0],
     [5.0]
-]))
+])
 
-y_data = Variable(torch.Tensor([
+y_data = torch.Tensor([
     [1.0],
     [1.0],
     [2.0],
     [2.0]
-]))
+])
 
 class Model(nn.Module):
     def __init__(self):

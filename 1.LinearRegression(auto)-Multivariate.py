@@ -4,19 +4,18 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.autograd import Variable
 
 # Answer y = x1*1 + x2*2 + x3*3
-x_data = Variable(torch.Tensor([
+x_data = torch.Tensor([
     [1.0, 2.0, 3.0],
     [4.0, 5.0, 6.0],
     [7.0, 8.0, 9.0],
-]))
-y_data = Variable(torch.Tensor([
+])
+y_data = torch.Tensor([
     [14.0],
     [32.0],
     [50.0]
-]))
+])
 
 class Model(nn.Module):
     def __init__(self):
