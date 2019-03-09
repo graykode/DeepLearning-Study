@@ -32,43 +32,28 @@ If you find English link or helpful link irrespective of language, Please give m
 ## Curriculum 
 
 Please see down Contents.
-
 - 1 Weeks
-
   - Supervisor Learning vs. Un-supervisor Learning
-
   - Linear Regression, Logistic Regression `manual` Gradient Descent implementation using `pure python`
-
 - 2 Weeks
-
   - method using Google Colaboratory.
   - Linear Regression, Logistic Regression Review, Convert `manual` to `auto` implementation using `Pytorch`
-
 - 3 Weeks 
-
   - Classification with DNN(Deep Neural Network) in `Pytorch`
   - apply Regularization(DropOut) concept to DNN
   - Optimization function in `Pytorch`, mini-batch, SGD, Adagrad, RMSProp, AdaDelta, Adam optimizer
-
 - 4 Weeks
-
   - Basic Convolution Neural Network
   - load dataset and use data loader with `torchvision`
   - apply Machine Learning Diagnostic concept to DNN
   - Implementation MNIST Classification using CNN
-
 - 5 Weeks
-
   - Basic RNN(Recurrent Neural Network) and LSTM in Pytorch
   - Teacher Forcing vs. No Teacher Forcing
   - Practice : Predict Next word using RNN or LSTM
-
 - 6 Weeks - Hackathon
-
   - Topic1 : Classification Cat , Dog Image, [Dataset](https://github.com/ardamavi/Dog-Cat-Classifier/tree/master/Data/Train_Data)
   - Topic2 : Classification Positive or Negative Korean Naver Movie, [Dataset](https://github.com/e9t/nsmc)
-
-
 
 ## Contents
 
@@ -110,21 +95,16 @@ Please see down Contents.
   - Learning Curves(Eng, [Kor](https://wikidocs.net/4658))
 
 
-
 #### 1.DeepLearning FrameWork Basic
 
 - Abstract Model using Pytorch Class : [1.Pytorch-Basic.py](https://github.com/graykode/DeepLearning-Study/blob/master/1.Pytorch-Basic.py)
-
 - method using Google Colaboratory
-
 - Convert `manual gradient descent` to `auto graident descent`
-
   - [1.LinearRegression(auto)-Univariate.py](https://github.com/graykode/DeepLearning-Study/blob/master/1.LinearRegression(auto)-Univariate.py)
   - [1.LinearRegression(auto)-Multivariate.py](https://github.com/graykode/DeepLearning-Study/blob/master/1.LinearRegression(auto)-Multivariate.py)
   - [1.LogisticRegression(auto)-Binary.py](https://github.com/graykode/DeepLearning-Study/blob/master/1.LogisticRegression(auto)-Binary.py)
   - [1.LogisticRegression(auto)-Softmax.py](https://github.com/graykode/DeepLearning-Study/blob/master/1.LogisticRegression(auto)-Softmax.py)
 
-  
 
 #### 2.DNN(Deep Neural Network)
 - Mathematical Back Propagation in Deep Neural Network(Eng, [Kor1](https://wikidocs.net/4262), [Kor2](https://wikidocs.net/4279))
@@ -136,7 +116,6 @@ Please see down Contents.
 - Dropout in Deep Neural Network : [2.DNN-Dropout.py](https://github.com/graykode/DeepLearning-Study/blob/master/2.DNN-Dropout.py)
 
 
-
 #### 3.DataLoader and basic Dataset and Image handler
 - MNIST : [3.DataLoader-MNIST.py](https://github.com/graykode/DeepLearning-Study/blob/master/3.DataLoader-MNIST.py)
 - Cifar10 : [3.DataLoader-Cifar10.py](https://github.com/graykode/DeepLearning-Study/blob/master/3.DataLoader-Cifar10.py)
@@ -144,15 +123,11 @@ Please see down Contents.
 - Image Folder : [3.DataLoader-ImageFolder.py](https://github.com/graykode/DeepLearning-Study/blob/master/3.DataLoader-ImageFolder.py)
 
 
-
 #### 4.CNN(Convolution Neural Network)
 
 - [awesome lecture](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks?fbclid=IwAR21k7YvRmCC1RqAJznzLjDPEf8EaZ2jBGeevX4GkiXruocr1akBAIX9-4U)
-
 - Structure of CNN
-
   - [4.CNN-Introduce.py](https://github.com/graykode/DeepLearning-Study/blob/master/4.CNN-Introduce.py)
-
   - Convolutional Layer
     - Role of filter(=kernel)
     - Role of Padding
@@ -162,39 +137,27 @@ Please see down Contents.
   - Pooling Layer
     - Max Pooling
     - Average Pooling
-
 - FeedForward in Convolution Neural Network
-
 - Mathematical Back Propagation in Convolution Neural Network
-
 - Practice : Classification MNIST
 
 
 
 #### 5.RNN(Recurrent Neural Network)
 - [awesome lecture](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks?fbclid=IwAR0rE5QoMJ3l005fhvqoer0Jo_6GiXAF8XM86iWCXD78e3Ud_nDtw_NGzzY)
-
 - Structure of RNN
-
   - [5.RNN-Introduce.py](https://github.com/graykode/DeepLearning-Study/blob/master/5.RNN-Introduce.py)
   - One-to-one vs. One-to-many vs. Many-to-one vs. Many-to-many
-
   - Hidden State
   - Output Layer
   - Weight sharing in RNN
-
 - [Teacher Forcing vs. No Teacher Forcing](https://machinelearningmastery.com/teacher-forcing-for-recurrent-neural-networks/)
-
 - FeedForward in Recurrent Neural Network(Eng, [Kor](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/))
-
 - Mathematical Back Propagation in Recurrent Neural Network(Eng, [Kor](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/))
-
 - Practice : [Predict Next word using RNN](https://github.com/graykode/DeepLearning-Study/blob/master/5.RNN-PredictWord.py)
 
 
-
 #### 6.LSTM(Long Short Term Memory)
-
 - Structure of LSTM
   - [6.LSTM-Introduce.py](https://github.com/graykode/DeepLearning-Study/blob/master/6.LSTM-Introduce.py)
   - Hidden State, Cell State
@@ -222,14 +185,12 @@ Please see down Contents.
 
 
 ## Author
-
 - Tae Hwan Jung(Jeff Jung) @graykode
 - Author Email : [nlkey2022@gmail.com](mailto:nlkey2022@gmail.com)
 
 
 
 ## License
-
 
 <p xmlns:dct="http://purl.org/dc/terms/">
   <a rel="license"
