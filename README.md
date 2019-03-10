@@ -26,6 +26,7 @@ If you find English link or helpful link irrespective of language, Please give m
 ## Curriculum 
 Please see down Contents.
 - 1 Weeks
+  - Basic Probability Review
   - Supervisor Learning vs. Un-supervisor Learning
   - Linear Regression, Logistic Regression `manual` Gradient Descent implementation using `pure python`
 - 2 Weeks
@@ -53,7 +54,12 @@ Please see down Contents.
 
 #### 0. Review Basic mathematical Theory with pure `Python`
 - **Supervisor Learning vs. Unsupervisor Learning : In this Study, We will deal with only supervisor concept model.**
-- Probability Review(Eng, Kor)
+
+- Basic Probability Review
+  - Bayers Theorem(Eng, [Kor](https://taeoh-kim.github.io/blog/bayes-theorem%EA%B3%BC-sigmoid%EC%99%80-softmax%EC%82%AC%EC%9D%B4%EC%9D%98-%EA%B4%80%EA%B3%84/)), Bayesian inference in Generative Model(Eng, [Kor](https://statkclee.github.io/statistics/bayesian-ab-testing-in-practice.html))
+  - Generative Model vs. Discriminative Model(Eng, [Kor](http://sanghyukchun.github.io/61/))
+  - Maximum Likelihood vs. Maximum A Posteriori(Eng, [Kor](https://darkpgmr.tistory.com/62))
+  - Maximizing Likelihood is Minimizing Cross-Entropy(Eng, [Kor](https://taeoh-kim.github.io/blog/cross-entropy%EC%9D%98-%EC%A0%95%ED%99%95%ED%95%9C-%ED%99%95%EB%A5%A0%EC%A0%81-%EC%9D%98%EB%AF%B8/))
 - Linear Regression(Eng, [Kor](https://wikidocs.net/4212))
   - Univariate Linear Regression(Eng, [Kor](https://wikidocs.net/4213)) vs. Multivariate Linear Regression(Eng, [Kor](https://wikidocs.net/7639))
   - **loss function and activation function** in Linear Regression
@@ -63,6 +69,7 @@ Please see down Contents.
     - manual : [0.LinearRegression(manual)-Univariate.py](https://github.com/graykode/DeepLearning-Study/blob/master/0.LinearRegression(manual)-Univariate.py)
     - manual : [0.LinearRegression(manual)-Multivariate.py](https://github.com/graykode/DeepLearning-Study/blob/master/0.LinearRegression(manual)-Multivariate.py)
   - Problem : XOR
+
 - Logistic Regression
   - What is different with Linear Regression?(Eng, [Kor](https://wikidocs.net/4267))
   - **loss function and activation function** in Logistic Regression
@@ -73,16 +80,19 @@ Please see down Contents.
     - manual : [0.LogisticRegression(manual)-Softmax.py](https://github.com/graykode/DeepLearning-Study/blob/master/0.LogisticRegression(manual)-Softmax.py)
   - different with binary classification and multi classification(sigmoid vs. Softmax)(Eng, [Kor1](https://wikidocs.net/4291), [Kor2](https://taeoh-kim.github.io/blog/bayes-theorem%EA%B3%BC-sigmoid%EC%99%80-softmax%EC%82%AC%EC%9D%B4%EC%9D%98-%EA%B4%80%EA%B3%84/))
   - different with Multi-Classification and Multi-labels Classification([Eng](https://stats.stackexchange.com/questions/11859/what-is-the-difference-between-multiclass-and-multilabel-problem), Kor)
+
 - Optimizing
   - What is batch and mini-batch?(Eng, [Kor](http://shuuki4.github.io/deep%20learning/2016/05/20/Gradient-Descent-Algorithm-Overview.html))
   - role of Momentum(Eng, [Kor](http://shuuki4.github.io/deep%20learning/2016/05/20/Gradient-Descent-Algorithm-Overview.html))
   - SGD, Adagrad, RMSProp, AdaDelta, Adam optimizer([Eng](http://ruder.io/optimizing-gradient-descent/?fbclid=IwAR3-EUWRXxLwNlGIEBaETVeVU9VOnDH8hIlp1PJvMG0StbM72gEKMpWA_VA), [Kor](http://shuuki4.github.io/deep%20learning/2016/05/20/Gradient-Descent-Algorithm-Overview.html)) : [2.DNN-Optimization.py](https://github.com/graykode/DeepLearning-Study/blob/master/2.DNN-Optimization.py)
+
 - Regularization
   - What is Overfitting?(Eng, [Kor](https://wikidocs.net/4269))
   - Regularization : weight decay
     - weight decay : Linear Regression(Eng, [Kor](https://wikidocs.net/4330))
     - weight decay : Logistic Regression(Eng, [Kor](https://wikidocs.net/4331))
   - Regularization : dropout(Eng, [Kor](https://pythonkim.tistory.com/42))
+
 - Machine Learning Diagnostic
   - Train Set, Cross Validation Set, Test Set(Eng, [Kor](https://wikidocs.net/4656))
   - Bias vs. Variance(Eng, [Kor](https://wikidocs.net/4657))
