@@ -131,7 +131,7 @@ Please see down Contents.
 - Structure of CNN
   - [4.CNN-Introduce.py](https://github.com/graykode/DeepLearning-Study/blob/master/4.CNN-Introduce.py)
   - Convolutional Layer
-    - Role of filter(=kernel)
+    - Role of filter(=kernel) vs. receptive fields
     - Role of Padding
     - Weight sharing in Convolutional Layer
   - Role of Channel, Reason using Multi Channel
