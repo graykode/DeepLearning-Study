@@ -39,7 +39,7 @@ Please see down Contents.
 - 4 Weeks
   - Basic Convolution Neural Network
   - load dataset and use data loader with `torchvision`
-  - apply Machine Learning Diagnostic concept to DNN
+  - apply Machine Learning Diagnostic(Train Set, Cross Validation Set, Test Set) concept to DNN
   - Implementation MNIST Classification using CNN
 - 5 Weeks
   - Basic RNN(Recurrent Neural Network) and LSTM in Pytorch
@@ -152,7 +152,7 @@ Please see down Contents.
   - Hidden State
   - Output Layer
   - Weight sharing in RNN
-- [Teacher Forcing vs. No Teacher Forcing](https://machinelearningmastery.com/teacher-forcing-for-recurrent-neural-networks/)
+- [Teacher Forcing vs. No Teacher Forcing](https://www.quora.com/What-is-the-teacher-forcing-in-RNN?awc=15748_1550222926_22685c53296b51dfb8cb6be25b6ce096&uiv=6&txtv=8&source=awin&medium=ad&campaign=uad_mkt_en_acq_us_awin&set=awin)
 - FeedForward in Recurrent Neural Network(Eng, [Kor](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/))
 - Mathematical Back Propagation in Recurrent Neural Network(Eng, [Kor](https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/))
 - Practice : [Predict Next word using RNN](https://github.com/graykode/DeepLearning-Study/blob/master/5.RNN-PredictWord.py)
